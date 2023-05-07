@@ -1,0 +1,22 @@
+var myFullName;
+console.log(myFullName);
+var myFullName="Kirtimala Madye";
+console.log(myFullName);
+var myFullName="Kirtimala Dattatray Madye";
+console.log(myFullName);
+var myLove="I love only JS";
+console.log(myLove);
+var firstName="Kirtimala";
+console.log(firstName);
+var lastName="Madye";
+console.log(lastName);
+var age="35";
+console.log(age);
+var address="Circuit House,Tarabai Park,Kolhapur."
+console.log(address);
+var pinCode="416606";
+console.log(pinCode);
+var gender="Female";
+console.log(gender);
+var isMarried="Married";
+console.log(isMarried);

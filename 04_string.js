@@ -41,19 +41,29 @@ console.log("After Trim firstName is =",trimmedFirstName,trimmedFirstName.
 length);
 
 var lastName="   Madye  ";
-var firstNameLength=firstName.length;
+firstNameLength=firstName.length;
 console.log(firstNameLength);
+console.log("-----------------------13/05/23----------------");
+var greet = "Good Morning";
+var includeResult=greet.includes("ing");
+console.log("Is ing String available inside: ",includeResult);
 
-varx=5,y=1  
-var obj ={ x:10}; 
-with(obj)  
-{  
-      console.log(y);
-}  
-console.log("---------");
-var count =0;  
-while (count <10)  
-{  
-     console.log(count);  
-     count++;  
-}  
+var searchResult=greet.search("Mor");
+console.log("Search Result : ",searchResult);
+
+var sliceResult=greet.slice(0,30);
+console.log("Slice result :",sliceResult);
+
+var substringResult=greet.substring(4,6);
+console.log("Substring Result: ",substringResult);
+
+var greet="Good Morning Kirti,How are you";
+var splitResult=greet.split(" ");
+console.log("Split Result is: ",splitResult);
+
+console.log(splitResult.length);
+
+
+
+
+

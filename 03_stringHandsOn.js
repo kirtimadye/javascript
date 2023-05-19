@@ -20,3 +20,5 @@ console.log(`10.Is string starts with word "Hey" : ${trimString.startsWith("Hey"
  
 }
 stringHandsOn();
+
+var str="Good Morning,How are you"
